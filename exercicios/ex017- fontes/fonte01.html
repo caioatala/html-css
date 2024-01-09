@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work Sans' Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            16px geralmente = 1em
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            */
+
+            /* weight( Pesp) widht(Largura) height(Altura) */
+            font-size: 1em;
+
+            /*font-weight: Lighter, Normal, Bold, Bolder*/
+        }
+
+        h1{
+            /* Shortahnd font
+            
+            -font-style-> font-weight -> font-size -> font-family 
+            
+            font-family: 'work sans', sans-serif;
+            font-size:  3em;
+            font-weight: bolder;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work sans', sans-serif;
+        } 
+
+        h2{
+            font: bold 2em  'work sans';  
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut iusto illo, doloremque saepe voluptate, officia
+        architecto sunt quos cum, quaerat ex numquam! Fuga quo repudiandae accusantium itaque nemo suscipit ipsam. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Voluptatum temporibus maiores dolorum placeat mollitia libero
+        delectus labore laudantium vel quasi! Eligendi corrupti cum, corporis consequatur tempora cupiditate dolorem
+        assumenda consequuntur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolores esse dolorum, maiores, libero nam
+        neque ratione eveniet reprehenderit cupiditate provident ipsa error cumque fugiat fuga quasi ex alias id.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur tenetur maiores, minima voluptatem
+        facilis, nihil natus ut impedit corrupti nemo omnis, vero aliquid dolorem inventore molestiae mollitia iure
+        quaerat cum?</p>
+</body>
+
+</html>
